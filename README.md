@@ -328,6 +328,25 @@ trait Find {
 
 and implement it for `DirectoryHandle` as well as `Filesystem`, using your existing code for `Filesystem`.
 
+# Deliverables
+
+You can consider this assignment done when `cargo test` returns a status code of 0.
+
+This lab is due a week from the day you are assigned it, so Tuesday section has it due 5/12, and Thursday section has it due 5/14.
+There are a few provided tests so you can check your implementation, and as taught in the book, you can run them using `cargo test`.
+You are allowed to work with others in the lab, but everyone must submit their own
+work. 
+
+We are also requiring you to submit an INTEGRITY.md, where you will
+talk about how you approached the assignment, who you asked help from, what
+resources you used, etc.
+
+Once again, a note on AI. The purpose of
+the lab assignment is for you to get practical rust experience under your
+belt. This is required for you to make meaningful progress on the research
+work in the next iteration of CMPM118. Don't export your learning to an LLM,
+please feel free to ask Surendra or Max for help if you need.
+
 ---
 [^1]: Here I am using `&str` string literals `"abc"` for convenience, but they are actually owned strings `"abc".to_owned()`.
 
